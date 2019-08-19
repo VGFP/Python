@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>54849eed-dee7-424b-9a10-19f2fae9d6d5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Gender_classifier.py</StartupFile>
+    <StartupFile>Stock_prediction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,12 @@
   <ItemGroup>
     <Compile Include="Gender_classifier.py" />
     <Compile Include="Machine_Learning.py" />
+    <Compile Include="Movie_Recomender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Stock_prediction.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
