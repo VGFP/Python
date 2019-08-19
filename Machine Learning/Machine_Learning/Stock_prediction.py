@@ -49,11 +49,11 @@ def stock_value_prodiction(dates, prices,z):
     plt.title('Support Vector Regression')
     plt.legend()
     plt.show()
-    
-    return svr_rbf.predict(x)[0], svr_Linear.predict(x)[0], svr_Poly.predict(x)[0]
+    print("sdas")
+    return svr_rbf.predict(z)[0], svr_Linear.predict(z)[0], svr_Poly.predict(z)[0]
 
 get_data('data/aapl.csv')
 
-predict_price=stock_value_prodiction(dates,prices,29)
+predict_price=stock_value_prodiction(dates,prices,[[29]])
 
 print(predict_price)
